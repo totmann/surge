@@ -1,0 +1,10 @@
+#!name=Surge Plus
+#!desc=Surge Plus
+#!author=totmann
+#!repo=https://github.com/totmann/surge
+
+[Script]
+table-media-unlocker = type=http-response,pattern=^https?:\/\/table\.media\/api\/login,script-path=https://raw.githubusercontent.com/totmann/surge/master/table-media.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% table.media

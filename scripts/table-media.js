@@ -1,0 +1,22 @@
+$done({
+    body: JSON.stringify({
+        "id":3443,
+        "firstname":"Maximilian",
+        "lastname":"Heinrich",
+        "salutation":"Herr",
+        "email":"howdy@gmail.com",
+        "subscriptions":[
+           "100HeadlinesTableFree",
+           "AfricaTable",
+           "AgrifoodTable",
+           "BerlinTableFree",
+           "BildungTable",
+           "ChinaTable",
+           "ClimateTable",
+           "ESGTable",
+           "EuropeTable",
+           "ResearchTable",
+           "SecurityTable"
+        ]
+     })
+});
