@@ -16,63 +16,63 @@ $done({
                 {},
                 {
                     "table": "china_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiLMAU"
                 },
                 {
                     "table": "africa_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiMMAU"
                 },
                 {
                     "table": "bildung_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiNMAU"
                 },
                 {
                     "table": "climate_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiOMAU"
                 },
                 {
                     "table": "agrifood_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiPMAU"
                 },
                 {
                     "table": "esg_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiQMAU"
                 },
                 {
                     "table": "europe_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiRMAU"
                 },
                 {
                     "table": "security_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiSMAU"
                 },
                 {
                     "table": "research_DE",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T07:36:45.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002YiTMAU"
@@ -93,21 +93,21 @@ $done({
                 },
                 {
                     "table": "china_EN",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T10:05:07.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002Z1hMAE"
                 },
                 {
                     "table": "europe_EN",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T10:05:07.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002Z1iMAE"
                 },
                 {
                     "table": "climate_EN",
-                    "license": "Voll",
+                    "license": "Vollversion",
                     "startDate": "2023-12-22T10:05:07.000+0000",
                     "expireDate": null,
                     "id": "a5QS70000002Z1jMAE"
