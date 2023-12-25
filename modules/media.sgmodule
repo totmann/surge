@@ -7,6 +7,7 @@
 table-media-login = type=http-response,pattern=^https?:\/\/table\.media\/api\/login,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/table-media-login.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 table-media-profil = type=http-response,pattern=^https?:\/\/table\.media\/api\/userdata,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/table-media-profil.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 reportagen = type=http-response,pattern=^https?:\/\/shop\.reportagen\.com\/graphql,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/reportagen.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
+republik = type=http-response,pattern=^https?:\/\/api\.republik\.ch\/graphql,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/republik.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% table.media, shop.reportagen.com
+hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch
