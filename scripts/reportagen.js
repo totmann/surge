@@ -1,9 +1,9 @@
 if ($response.body) {
     let obj = JSON.parse($response.body);
-    if (obj.data.login) {
+    if (typeof obj.data.login !== 'undefined') {
         obj.data.login.user.subscriptionAccessStatus = true;
     }
-    else if (obj.data.viewer) {
+    else if (typeof obj.data.viewer !== 'undefined') {
         obj.data.viewer.subscriptionAccessStatus = true;
     }
     

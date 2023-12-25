@@ -1,9 +1,9 @@
 if ($response.body) {
     let obj = JSON.parse($response.body);
-    if (obj.data.me.username) {
+    if (typeof obj.data.me.username !== 'undefined') {
         obj.data.me.activeMembership = true;
     }
-    else if (obj.data.meGuidance) {
+    else if (typeof obj.data.meGuidance !== 'undefined') {
         obj.data.meGuidance.activeMembership = true;
     }
     
