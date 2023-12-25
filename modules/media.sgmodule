@@ -9,4 +9,4 @@ table-media-profil = type=http-response,pattern=^https?:\/\/table\.media\/api\/u
 reportagen = type=http-response,pattern=^https?:\/\/shop\.reportagen\.com\/graphql,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/reportagen.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% table.media
+hostname = %APPEND% table.media, shop.reportagen.com
