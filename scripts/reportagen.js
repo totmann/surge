@@ -1,9 +1,9 @@
-let modified = $response.body;
-if (modified['data']['login']) {
-    modified['data']['login']['user']['subscriptionAccessStatus'] = true;
+let obj = JSON.parse($response.body);
+if (obj.data.login) {
+    obj.data.login.user.subscriptionAccessStatus = true;
 }
-else if (modified['data']['viewer']) {
-    modified['data']['viewer']['subscriptionAccessStatus'] = true;
+else if (obj.data.viewer) {
+    obj.data.viewer.subscriptionAccessStatus = true;
 }
 
-$done({body: JSON.stringify(modified)});
+$done({body: JSON.stringify(obj)});
