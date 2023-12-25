@@ -9,3 +9,5 @@ if ($response.body) {
     
     $done({body: JSON.stringify(obj)});
 }
+
+$done({});
