@@ -10,6 +10,7 @@ reportagen = type=http-response,pattern=^https?:\/\/shop\.reportagen\.com\/graph
 republik = type=http-response,pattern=^https?:\/\/api\.republik\.ch\/graphql,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/republik.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 ps = type=http-response,pattern=^https?:\/\/www\.project-syndicate\.org\/member\/info.+,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/ps.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 faz = type=http-response,pattern=^https?:\/\/abo\.faz-iapps\.com\/abo,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/faz.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
+faz-auto = type=http-response,pattern=^https?:\/\/b2babo\.faz-iapps\.com\/ipautologin\/check.+,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/faz-auto.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, abo.faz-iapps.com
+hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, abo.faz-iapps.com, b2babo.faz-iapps.com
