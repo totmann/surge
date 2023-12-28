@@ -1,5 +1,10 @@
 if ($response.body) {
     let obj = JSON.parse($response.body);
+    obj.data.Subscription.bnrtxt = "";
+    obj.data.Subscription.btntxt = "";
+    obj.data.Subscription.message = "";
+    obj.data.Subscription.hasBasicAccess = true;
+    obj.data.Subscription.hasPremiumAccess = true;
     obj.data.Subscription.hasPremiumPlusAccess = true;
     obj.data.Subscription.subscriptionType = "premium+";
     obj.data.Subscription.subscription = "premium+";
