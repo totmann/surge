@@ -12,5 +12,6 @@ ps = type=http-response,pattern=^https?:\/\/www\.project-syndicate\.org\/member\
 faz-auto = type=http-response,pattern=^https?:\/\/b2babo\.faz-iapps\.com\/ipautologin\/check.+,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/faz-auto.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 sz-session = type=http-response,pattern=^https?:\/\/sz-importer\.s4p-iapps\.com\/session\/authenticate,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/sz-session.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 lingvist = type=http-response,pattern=^https?:\/\/api\.lingvist\.com\/\d\.\d\/user\/sync,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/lingvist.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
+faz-plus = type=http-response,pattern=^https?:\/\/fnetcore-api-prod\.azurewebsites\.net\/api\/v2\/account\/login,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/faz-plus.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 [MITM]
-hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, b2babo.faz-iapps.com, sz-importer.s4p-iapps.com, api.lingvist.com
+hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, b2babo.faz-iapps.com, sz-importer.s4p-iapps.com, api.lingvist.com, fnetcore-api-prod.azurewebsites.net
