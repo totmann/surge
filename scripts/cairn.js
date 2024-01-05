@@ -1,6 +1,6 @@
 if ($response.body) {
     let obj = JSON.parse($response.body);
-    if (obj.is_subscriber) {
+    if (obj.first_name) {
         obj.is_subscriber = true;
     }
     else if (obj.account) {
