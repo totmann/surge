@@ -16,5 +16,6 @@ faz-plus = type=http-response,pattern=^https?:\/\/fnetcore-api-prod\.azurewebsit
 speak = type=http-response,pattern=^https?:\/\/api\.usespeak\.com\/v1\/users\/user,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/speak.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 pioneer = type=http-response,pattern=^https?:\/\/api\.thepioneer\.de\/graphql,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/pioneer.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 cairn = type=http-response,pattern=^https?:\/\/api\.vialife\.fr\/v3\/account.*,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/cairn.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
+ti = type=http-response,pattern=^https?:\/\/www\.theinformation\.com\/api\/v1\/login,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/ti.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 [MITM]
-hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, b2babo.faz-iapps.com, sz-importer.s4p-iapps.com, api.lingvist.com, fnetcore-api-prod.azurewebsites.net, api.usespeak.com, api.thepioneer.de, api.vialife.fr
+hostname = %APPEND% table.media, shop.reportagen.com, api.republik.ch, project-syndicate.org, b2babo.faz-iapps.com, sz-importer.s4p-iapps.com, api.lingvist.com, fnetcore-api-prod.azurewebsites.net, api.usespeak.com, api.thepioneer.de, api.vialife.fr, www.theinformation.com
