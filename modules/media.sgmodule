@@ -3,9 +3,6 @@
 #!author=totmann
 #!repo=https://github.com/totmann/surge
 
-[URL Rewrite]
-https://apps\.courrierinternational\.com/cri/v1/free-ios-phone.+ https://apps.courrierinternational.com/cri/v1/premium-ios-phone.+ header
-
 [Script]
 table-media-login = type=http-response,pattern=^https?:\/\/table\.media\/api\/login,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/table-media-login.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
 table-media-profil = type=http-response,pattern=^https?:\/\/table\.media\/api\/userdata,script-path=https://raw.githubusercontent.com/totmann/surge/main/scripts/table-media-profil.js,requires-body=true,max-size=3145728,timeout=60,script-update-interval=0
