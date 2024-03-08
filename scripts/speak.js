@@ -3,7 +3,7 @@ if ($response.body) {
     if (!obj.premium) {
         obj.premium = true;
     }
-    else if (obj.locked) {
+    if (obj.locked) {
         obj.locked = false;
     }
     
