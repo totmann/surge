@@ -4,7 +4,7 @@ if ($response.body) {
         obj.premium = true;
     }
     else if (obj.locked) {
-        locked = false;
+        obj.locked = false;
     }
     
     $done({body: JSON.stringify(obj)});
