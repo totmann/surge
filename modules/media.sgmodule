@@ -1,6 +1,7 @@
 #!name=Media Plus
-#!desc=Table Media/Reportagen
+#!desc=Media Unlocker
 #!author=totmann
+#!category=Media
 #!repo=https://github.com/totmann/surge
 
 [Script]
